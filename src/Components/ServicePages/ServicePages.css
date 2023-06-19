@@ -1,0 +1,27 @@
+@media (max-width:680px) {
+    .Service-ul{
+        background: rgb(3,55,159);
+        background: radial-gradient(circle, rgba(3,55,159,1) 0%, rgba(5,24,56,1) 69%);
+        height: 100vh;
+    }
+    .Service-ul li{
+        margin-top: 50px;
+
+        text-align: center;
+    }
+    .Service-ul .Home{
+        padding-top: 40px;
+        margin-top: 0px;
+    }
+    .Service-ul li a:any-link{
+        text-decoration: none;
+        font-size: 28px;
+        color: white;
+    }
+    .Service-ul li a:any-link:hover{
+        background: white;
+        color: rgb(3,55,159);
+        padding: 15px 25px;
+        border-radius: 40px;
+    }
+}

@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.aboutus {
+    background:url(./../../Images/aboutus.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.aboutbg{
+    background:url(./../../Images/aboutbg.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160vh;
+}
+.about-main{
+    padding-top: 50px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     height: auto;
+     padding-bottom: 100px;
+
+}
+.about-main .about-left{
+    flex: 40%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.about-main .about-right{
+    flex: 60%;
+    margin-left: 50px;
+   padding-top: 12px;
+   
+}
+
+.about-main .about-left img{
+    width: 500px;
+    
+    border-radius: 10px;
+    animation: my-animation 5s infinite linear;
+}
+@keyframes my-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    50%{
+      transform: translate(0,-15px)
+    }
+  
+    100% {
+      transform: translate(0, 0);
+    }}
+
+.intro-about{
+
+    padding-top: 100px;
+    justify-content: center;
+}
+.intro-about h1{
+    text-align: center;
+    font-size: 44px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(180deg, #5aa7ff, #006191);
+}
+.intro-about article{
+    text-align: center;
+    font-size: 18.3px;
+    color: #032C7B;
+    line-height:1.5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+        /* Our belive Start  */
+
+.ourbelive-main{
+    
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 160vh;
+    background: rgb(3,55,159);
+    background: radial-gradient(circle, rgba(3,55,159,1) 0%, rgba(5,24,56,1) 69%);
+
+}
+.ourbelive-main .ourbelive-left{
+    flex: 30%;
+    padding-left: 30px;
+    padding-top: 50px;
+    
+}
+.ourbelive-main .ourbelive-left img{
+    margin-top: 200px;
+    width: 700px;
+    
+}
+.ourbelive-main .ourbelive-right{
+    
+    flex: 70%;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.ourbelive-main .ourbelive-right h5{
+    color: #03318A;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    width: 25%;
+    border-radius: 15px;
+    text-align: center;
+}
+.ourbelive-main .ourbelive-right h3{
+    color: white;
+    font-size: 32px;
+}
+.ourbelive-main .ourbelive-right article{
+    color: rgba(255, 255, 255, 0.704);
+    font-size: 17px;
+    text-align: justify;
+    line-height: 2;
+    width: 90%;
+}
+
+    /* Our belive End */
+
+        /* Our team Start */
+
+.ourteam-main{
+    padding-top: 50px;
+    width: 100%;
+    height: 85vh;
+    background: url(../../Images/teambg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.ourteam-main h1{
+    text-align: center;
+    width: 100%;
+    font-size: 44px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(180deg, #5aa7ff, #006191);
+
+}
+.ourteam-main hr{
+    width: 10%;
+    color: rgb(3,55,159);
+    border: 2px solid;
+    margin-top: -25px ;
+}
+
+.Ready{
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+
+}
+.Ready .Ready-top{
+    position: absolute;
+    background:url(../../Images/aboutbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 25vh;
+    justify-self: center;
+    margin-left: 200px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+.Ready .Ready-top .Ready-left{
+    flex: 80%;
+    padding: 5px 30px;
+}
+.Ready .Ready-top .Ready-left .h1{
+    color: #5aa7ff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+.Ready .Ready-top .Ready-left h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #03318A;
+}
+.Ready .Ready-top .Ready-right{
+    flex: 20%;
+    padding: 5px 30px;
+}
+.Ready .Ready-top .Ready-right{
+    flex: 20%;
+    padding: 5px 30px;
+}
+.Ready .Ready-top .Ready-right .Cont{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border:1px solid rgb(3, 3, 75);
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: #03318A;
+    color: #ffffff;
+}
+
+
+        /* Our team End */
+@media (max-width: 660px) {
+    .about-main{
+        flex-direction: column;
+    }
+    .aboutbg{
+        height: auto;
+    }
+    .about-main .about-left img{
+        width: 400px;
+        padding-left: 0;
+
+    }
+    .about-main .about-left,.about-main .about-right{
+        margin-left: 20px;
+
+    }
+    .about-main .about-left{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .ourbelive-main{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .ourbelive-main .ourbelive-left img{
+        margin-top: 10px;
+        width: 350px;
+        
+    }
+    @keyframes my-animation {
+        0% {
+          transform: translate(0, 0);
+        }
+        50%{
+          transform: translate(0,-10px)
+        }
+      
+        100% {
+          transform: translate(0, 0);
+        }}
+    .ourbelive-main .ourbelive-left{
+        padding-left: 0;
+    }
+    .ourbelive-main .ourbelive-right{
+       padding-left:20px ;
+
+    }
+    .ourbelive-main .ourbelive-right h5{
+            width: 70%;
+            
+    }
+    .ourbelive-main .ourbelive-right h3{
+        padding-top: 20px;
+        width: 80%;
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+    .ourbelive-main .ourbelive-right article{
+        padding-top: 20px;
+        width: 90%;
+        font-size: 18px;
+        
+    }
+    .ourteam-main{
+        height: auto;
+        padding-bottom: 80px;
+    }
+    .Ready{
+        margin-top: 40px;
+        padding-left: 5px;
+        
+    }
+    .Ready .Ready-top{
+        flex-direction: column;
+        margin-left: 5px;
+        width: 90%;
+        height: 30vh;
+    }
+    .Ready .Ready-top .Ready-right br{
+        display: none;
+    }
+    .Ready .Ready-top .Ready-right{
+        margin-top: -30px;
+    }
+    
+}

@@ -1,0 +1,55 @@
+.aboutcard{
+    border: 1px solid #3e8ee8;
+    width: 500px;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 2px 20px;
+    background-color: #eff6ff;
+    border-radius: 5px;
+}
+.aboutcard .left{
+    flex:20%;
+    padding-bottom: 2px;
+}
+.aboutcard .right{
+    flex:80%;
+    padding-left: 20px;
+    padding-top: -5px;
+    padding-bottom: 2px;
+}
+.aboutcard .left img{
+    padding-top: 30px;
+    width: 70px;
+    height: 70px;
+}
+.aboutcard  h3{
+    color: #35479d;
+}
+.aboutcard article{
+    font-size: 15px;
+    color: #929293;
+}
+
+
+@media (max-width : 680px ){
+    .aboutcard .left img{
+        width: 40px;
+        height: 60px;
+    }
+    
+    .aboutcard{
+        width: 95%;
+        height: 170px;
+
+    }
+    .aboutcard  h3{
+        font-size: 15px;
+    }
+    .aboutcard article{
+        font-size: 12px;
+        padding-top: 10px;
+        
+    }
+}  

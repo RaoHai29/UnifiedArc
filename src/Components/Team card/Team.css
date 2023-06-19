@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.Ourteam{
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.Ourteam .OurTeamMember{
+    flex:100%;
+    margin-top: 20px;
+    
+
+}
+.Ourteam .OurTeamMember img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(250, 250, 250);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.Ourteam .OurTeamMember h3, .Ourteam .OurTeamMember h6{
+    text-align: center;
+}
+.Ourteam .OurTeamMember h3{
+    color:rgb(244, 244, 251) ;
+    font-size: 20px;
+}
+.Ourteam .OurTeamMember h6{
+    margin-top: -10px;
+    font-size: 16px;
+    color: rgb(255, 251, 251);
+}
+.Ourteam .OurTeamMember .OurteamCard{
+    margin-left: 100px;
+    width: 18rem;
+    border: 2px solid rgb(246, 246, 247);
+    border-radius: 20px;
+    background-color: rgba(3, 14, 53, 0.884);
+}
+@media (max-width: 680px) {
+    .Ourteam{
+        flex-direction: column !important;
+    }
+    .Ourteam .OurTeamMember{
+        flex:0;
+    }
+    .Ourteam .OurTeamMember .OurteamCard{
+        margin-left: 30px;
+    }
+    
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.Contact{
+  background: rgb(3,55,159);
+    background: radial-gradient(circle, rgba(3,55,159,1) 0%, rgba(5,24,56,1) 69%);
+    display: flex;
+    flex-direction: row;
+  
+}
+.Contact .left-Contact{
+    margin-top: 40px;
+    margin-left: 40px;
+    flex:40%;
+    
+}
+.Contact .right-Contact{
+    margin-top: 40px;
+    margin-left: 40px;
+    flex:60%
+}
+.Contact .left-Contact img{
+    width: 500px;
+}
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  
+  #contact {
+    background: transparent;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-top: 3px solid rgb(109, 202, 236);
+  }
+  
+
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 93.5%;
+    border: 0px;
+    border-bottom: 1px solid #ccccccbc;
+    background: transparent;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    color: rgb(255, 255, 255);
+    background: rgb(0,154,180);
+    background: linear-gradient(90deg, rgba(0,154,180,1) 19%, rgba(5,68,159,1) 72%);
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color:#ccccccbc;
+  }
+  
+  :-moz-placeholder {
+    color: #ccccccbc;
+  }
+  
+  ::-moz-placeholder {
+    color: #ccccccbc;
+  }
+  
+  :-ms-input-placeholder {
+    color: #ccccccbc;
+  }
+
+   @media (max-width: 820px) {
+      .Contact{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 50px;
+      }
+      .Contact .left-Contact,.Contact .right-Contact{
+            margin-left: 10px;
+      }
+      .Contact .left-Contact img{
+        width: 350px;
+        margin-left: 200px;
+      }
+      .Contact #contact{
+        width: 340px;
+      }
+
+   }
+   @media (max-width: 660px) {
+    .Contact{
+      flex-direction: column;
+      height: auto;
+      padding-bottom: 50px;
+    }
+    .Contact .left-Contact,.Contact .right-Contact{
+          margin-left: 10px;
+    }
+    .Contact .left-Contact img{
+      width: 330px;
+      margin-left: 10px
+    }
+    .Contact #contact{
+      width: 340px;
+    }
+
+ }
